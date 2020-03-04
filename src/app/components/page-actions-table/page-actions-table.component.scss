@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+#pageAction {
+        text-align: center;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #pageAction td, #pageAction th{
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #pageAction tr:nth-child(even){background-color: #f2f2f2;}
+
+    #pageAction tr:hover {background-color: #ddd;}
+
+    #pageAction th {
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: cornflowerblue;
+        color: white;
+    }
+

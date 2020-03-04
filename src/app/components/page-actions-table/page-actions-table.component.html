@@ -1,0 +1,16 @@
+<h1> ¡ Prueba MDos4 ! </h1>
+<hr>
+<table id=pageAction>
+    <tr>
+        <th *ngFor = "let head of headElements" scope="col">
+            {{head}}
+        </th>
+    </tr>
+    <tr *ngFor = "let elements of pageActions" >
+        <td >{{elements["PMC.id"]}}</td>
+        <td>{{elements["PMC.nombre"]}}</td>
+        <td>{{elements["PMC.padre"]}}</td>
+        <td>{{elements["A.nombre"]}}</td>
+    </tr>
+    
+</table>
